@@ -4,7 +4,7 @@ function getComputerChoice() {
     /* console.log(randomComputerSelection) */
 }
 
-const playerSelection = 'scissors';
+const playerSelection = prompt("Choose rock, paper, or scissors: ")
 const computerSelection = getComputerChoice();
 
 function playRound(playerSelection, computerSelection) {
